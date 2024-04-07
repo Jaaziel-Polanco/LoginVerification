@@ -122,7 +122,7 @@ const Logeo = () => {
                         <Form.Item name="remember" valuePropName="checked" noStyle>
                             <Checkbox>Recuérdame</Checkbox>
                         </Form.Item>
-                        <Link to={'/recovery'} className="float-right">
+                        <Link to={'/Reset'} className="float-right">
                             Olvidaste tu contraseña?
                         </Link>
                     </Form.Item>
@@ -135,7 +135,7 @@ const Logeo = () => {
                             <div className="text-white text-center w-full mt-5">
                                 Aún no tienes tu cuenta?{" "}
                                 <p className="animate-bounce animate-infinite animate-ease-in-out">
-                                    <Link to={"/registro"} className="text-accent-100 font-extrabold hover:text-[#D1C4E9]">
+                                    <Link to={"/SignUp"} className="text-accent-100 font-extrabold hover:text-[#D1C4E9]">
                                         Registrate
                                     </Link></p>
                             </div>

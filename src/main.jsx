@@ -15,11 +15,11 @@ const router = createHashRouter([
     errorElement: <Error />,
   },
   {
-    path: '/registro',
+    path: '/SignUp',
     element: <Registro />,
   },
   {
-    path: '/recovery',
+    path: '/Reset',
     element: <Recovery />,
   },
 
